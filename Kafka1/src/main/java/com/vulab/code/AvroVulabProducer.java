@@ -30,8 +30,8 @@ public class AvroVulabProducer {
 
 		for (int i = 0; i < 1000; i++) {
 			GenericData.Record avroRecord = new GenericData.Record(schema);
-			avroRecord.put("str1", "Str 1-" + i);
-			avroRecord.put("str2", "Str 2-" + i);
+			avroRecord.put("str1", "Str1-" + i);
+			avroRecord.put("str2", "Str2-" + i);
 			avroRecord.put("int1", i);
 
 			byte[] bytes = recordInjection.apply(avroRecord);

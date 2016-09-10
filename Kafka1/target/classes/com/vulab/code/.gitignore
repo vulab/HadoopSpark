@@ -4,3 +4,4 @@
 /SimpleVulabKafkaProducer.class
 /SparkStreamingVulabAvroConsumer.class
 /SparkStreamingVulabConsumer.class
+/SparkStreamingKafkaAvroCassandraConsumer.class
