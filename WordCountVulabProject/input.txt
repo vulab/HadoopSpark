@@ -1,0 +1,4 @@
+Hello how are you
+Hello we are doing good
+Hello Hello
+We are learning hadoop
